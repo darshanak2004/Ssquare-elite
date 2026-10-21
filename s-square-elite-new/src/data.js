@@ -1,0 +1,32 @@
+export const categories = [
+  { slug: 'soft-toys', name: 'Soft Toys', icon: '🧸', description: 'Cuddly companions' },
+  { slug: 'games', name: 'Games', icon: '🎮', description: 'Play together' },
+  { slug: 'vehicles', name: 'Vehicles', icon: '🚙', description: 'Ready, set, go!' },
+  { slug: 'art-craft', name: 'Art & Craft', icon: '🎨', description: 'Make something lovely' },
+  { slug: 'panda-lamps', name: 'Panda Lamps', icon: '🐼', description: 'A softer glow' },
+  { slug: 'puzzles', name: 'Puzzles', icon: '🧩', description: 'Little brain teasers' },
+  { slug: 'outdoor', name: 'Outdoor', icon: '🪁', description: 'Big outdoor fun' },
+  { slug: 'small-lamps', name: 'Small Lamps', icon: '💡', description: 'Cosy little lights' },
+  { slug: 'books', name: 'Books', icon: '📚', description: 'Stories to keep' },
+  { slug: 'gift-sets', name: 'Gift Sets', icon: '🎁', description: 'Gifts made easy' },
+  { slug: 'other-toys', name: 'Other Toys', icon: '✨', description: 'More little surprises' },
+]
+
+export const products = [
+  { id: 'p1', slug: 'honey-teddy', name: 'Honey Teddy Bear', category: 'soft-toys', price: 499, oldPrice: 649, emoji: '🧸', color: '#f8e4d4', tag: 'Bestseller', description: 'A soft, snuggly teddy for everyday cuddles and special moments.' },
+  { id: 'p2', slug: 'rainbow-plush', name: 'Rainbow Plush Pal', category: 'soft-toys', price: 399, emoji: '🌈', color: '#fce0ec', tag: 'Loved', description: 'A cheerful plush companion made for little smiles.' },
+  { id: 'p3', slug: 'mini-game-pad', name: 'Mini Game Pad', category: 'games', price: 799, oldPrice: 999, emoji: '🎮', color: '#e8e0fb', tag: 'Popular', description: 'A playful game pad for fun breaks and family game time.' },
+  { id: 'p4', slug: 'race-car-set', name: 'Racing Car Set', category: 'vehicles', price: 349, emoji: '🚗', color: '#dceafa', tag: 'New', description: 'A colourful little racer ready for imaginative adventures.' },
+  { id: 'p5', slug: 'creative-art-kit', name: 'Creative Art Kit', category: 'art-craft', price: 599, emoji: '🎨', color: '#ffead9', tag: 'Creative pick', description: 'A bright art kit for drawing, colouring and making.' },
+  { id: 'p6', slug: 'panda-night-light', name: 'Panda Night Light', category: 'panda-lamps', price: 699, oldPrice: 799, emoji: '🐼', color: '#e2f4ed', tag: 'Bestseller', description: 'A gentle bedside glow with an adorable panda-inspired look.' },
+  { id: 'p7', slug: 'puzzle-adventure', name: 'Puzzle Adventure', category: 'puzzles', price: 299, emoji: '🧩', color: '#f7e6ad', tag: 'Brainy fun', description: 'A colourful puzzle for curious minds and quiet afternoons.' },
+  { id: 'p8', slug: 'kite-day', name: 'Colour Pop Kite', category: 'outdoor', price: 199, emoji: '🪁', color: '#d9f2ee', tag: 'Outdoor fun', description: 'A bright kite for breezy afternoons and outdoor play.' },
+  { id: 'p9', slug: 'moon-lamp', name: 'Little Moon Lamp', category: 'small-lamps', price: 549, emoji: '🌙', color: '#e7e4fb', tag: 'Cosy pick', description: 'A small decorative lamp to bring a cosy feel to a room.' },
+  { id: 'p10', slug: 'storybook-bundle', name: 'Storytime Book Bundle', category: 'books', price: 449, emoji: '📚', color: '#f5e2d4', tag: 'Gift idea', description: 'A sweet bundle for story time and quiet reading moments.' },
+  { id: 'p11', slug: 'birthday-gift-box', name: 'Birthday Surprise Box', category: 'gift-sets', price: 999, oldPrice: 1199, emoji: '🎁', color: '#f8dfea', tag: 'Gift-ready', description: 'A ready-to-give surprise set for birthdays and celebrations.' },
+  { id: 'p12', slug: 'bubble-maker', name: 'Bubble Maker', category: 'other-toys', price: 279, emoji: '🫧', color: '#d9efff', tag: 'Little joy', description: 'Make playtime extra magical with floating bubbles.' },
+  { id: 'p13', slug: 'teddy-gift-duo', name: 'Teddy Gift Duo', category: 'gift-sets', price: 749, emoji: '🧸🎁', color: '#f5e5d8', tag: 'Thoughtful gift', description: 'A cuddly teddy paired with a little gift-ready surprise.' },
+  { id: 'p14', slug: 'colouring-book', name: 'Colouring Fun Book', category: 'books', price: 179, emoji: '🖍️', color: '#fbe8c7', tag: 'Easy favourite', description: 'Pages of playful colouring for creative little hands.' },
+  { id: 'p15', slug: 'panda-mini-light', name: 'Panda Mini Glow', category: 'small-lamps', price: 399, emoji: '🐼', color: '#e0f3ed', tag: 'Cosy pick', description: 'A cute compact light for desks, shelves and bedside tables.' },
+  { id: 'p16', slug: 'building-blocks', name: 'Build & Create Blocks', category: 'games', price: 649, emoji: '🧱', color: '#f9dfd9', tag: 'Play favourite', description: 'Build little worlds with colourful blocks and imagination.' },
+]
